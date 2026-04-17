@@ -4,17 +4,21 @@ from app.models.split_arrangement_model import SplitArrangementModel
 from app.schemas.individual_schema import IndividualInsertSchema
 from app.schemas.primary_category_schema import PrimaryCategoryInsertSchema
 from app.schemas.split_arrangement_schema import (
-    SplitArrangementInsert,
-    SplitArrangementResult,
+    SplitArrangementInsertSchema,
+    SplitArrangementResultSchema,
+    SplitArrangementSelectSchema,
 )
 from app.services.db_services.individual_service import insert_individuals
 from app.services.db_services.pirmary_category_service import insert_primary_categories
-from app.services.db_services.split_arrangement_service import insert_split_arrangements
+from app.services.db_services.split_arrangement_service import (
+    insert_split_arrangements,
+    select_split_arrangements,
+)
 from app.utils.files import json_to_dict
 
 
-class TestSplitArrangementInsert:
-    def test_split_arrangement_insert_valid_raw(
+class TestSplitArrangementInsertAndSelect:
+    def test_split_arrangement_insert_and_select_valid_raw(
         self,
         td_split_arrangement_json,
         td_individual_json,
@@ -46,7 +50,7 @@ class TestSplitArrangementInsert:
             for split_arrangement in split_arrangements:
                 db_insert.add(SplitArrangementModel(**split_arrangement))
                 split_arrangement_insert_schemas.append(
-                    SplitArrangementInsert(**split_arrangement)
+                    SplitArrangementInsertSchema(**split_arrangement)
                 )
 
             db_insert.commit()
@@ -62,11 +66,11 @@ class TestSplitArrangementInsert:
                 result = db_select.scalars(stmt).all()
                 assert len(result) == 1
                 assert (
-                    SplitArrangementResult.model_validate(result[0]).model_dump()
+                    SplitArrangementResultSchema.model_validate(result[0]).model_dump()
                     == split_arrangement_insert_schema.model_dump()
                 )
 
-    def test_split_arrangement_insert_valid_service(
+    def test_split_arrangement_insert_and_select_valid_service(
         self,
         td_split_arrangement_json,
         td_individual_json,
@@ -93,7 +97,7 @@ class TestSplitArrangementInsert:
 
         split_arrangements = json_to_dict(td_split_arrangement_json)
         split_arrangement_insert_schemas = [
-            SplitArrangementInsert(**split_arrangement)
+            SplitArrangementInsertSchema(**split_arrangement)
             for split_arrangement in split_arrangements
         ]
 
@@ -106,15 +110,17 @@ class TestSplitArrangementInsert:
 
         with db_factory() as db_select:
             for split_arrangement_insert_schema in split_arrangement_insert_schemas:
-                stmt = select(SplitArrangementModel).where(
-                    SplitArrangementModel.individual_a
-                    == split_arrangement_insert_schema.individual_a
-                    and SplitArrangementModel.individual_b
-                    == split_arrangement_insert_schema.individual_b
+                split_arrangement_models = select_split_arrangements(
+                    SplitArrangementSelectSchema(
+                        individual_a=split_arrangement_insert_schema.individual_a,
+                        individual_b=split_arrangement_insert_schema.individual_b,
+                    ),
+                    db_select,
                 )
-                result = db_select.scalars(stmt).all()
-                assert len(result) == 1
+                assert len(split_arrangement_models) == 1
                 assert (
-                    SplitArrangementResult.model_validate(result[0]).model_dump()
+                    SplitArrangementResultSchema.model_validate(
+                        split_arrangement_models[0]
+                    ).model_dump()
                     == split_arrangement_insert_schema.model_dump()
                 )

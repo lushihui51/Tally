@@ -1,13 +1,18 @@
 from sqlalchemy import select
 
 from app.models.individual_model import IndividualModel
-from app.schemas.individual_schema import IndividualInsertSchema
-from app.services.db_services.individual_service import insert_individuals
+from app.schemas.individual_schema import IndividualInsertSchema, IndividualSelectSchema
+from app.services.db_services.individual_service import (
+    insert_individuals,
+    select_individuals,
+)
 from app.utils.files import json_to_dict
 
 
-class TestIndividualInsert:
-    def test_individual_insert_valid_raw(self, td_individual_json, db_factory):
+class TestIndividualInsertAndSelect:
+    def test_individual_insert_and_select_valid_raw(
+        self, td_individual_json, db_factory
+    ):
         """Test inserting valid rows into the individual table directly."""
         individuals = json_to_dict(td_individual_json)
         individual_models = []
@@ -27,7 +32,9 @@ class TestIndividualInsert:
                 result = db_select.scalars(stmt).all()
                 assert len(result) == 1
 
-    def test_individual_insert_valid_service(self, td_individual_json, db_factory):
+    def test_individual_insert_and_select_valid_service(
+        self, td_individual_json, db_factory
+    ):
         """Test inserting valid rows into the individual table using the service function insert_individuals."""
         individuals = json_to_dict(td_individual_json)
 
@@ -39,9 +46,9 @@ class TestIndividualInsert:
             db_insert.commit()
 
         with db_factory() as db_select:
-            stmt = select(IndividualModel)
-            result = db_select.scalars(stmt).all()
-            assert len(result) == len(individuals)
-            result_names = {r.individual_name for r in result}
+            individual_models = select_individuals(IndividualSelectSchema(), db_select)
+
+            assert len(individual_models) == len(individuals)
+            result_names = {r.individual_name for r in individual_models}
             expected_names = {e["individual_name"] for e in individuals}
             assert result_names == expected_names

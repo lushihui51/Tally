@@ -1,13 +1,19 @@
 from sqlalchemy import select
 
 from app.models.primary_category_model import PrimaryCategoryModel
-from app.schemas.primary_category_schema import PrimaryCategoryInsertSchema
-from app.services.db_services.pirmary_category_service import insert_primary_categories
+from app.schemas.primary_category_schema import (
+    PrimaryCategoryInsertSchema,
+    PrimaryCategorySelectSchema,
+)
+from app.services.db_services.pirmary_category_service import (
+    insert_primary_categories,
+    select_primary_categories,
+)
 from app.utils.files import json_to_dict
 
 
-class TestPrimaryCategoryInsert:
-    def test_primary_category_insert_valid_raw(
+class TestPrimaryCategoryInsertAndSelect:
+    def test_primary_category_insert_and_select_valid_raw(
         self, td_primary_category_json, db_factory
     ):
         """Test inserting valid rows into the primary_category table directly."""
@@ -30,7 +36,7 @@ class TestPrimaryCategoryInsert:
                 result = db_select.scalars(stmt).all()
                 assert len(result) == 1
 
-    def test_primary_category_insert_valid_service(
+    def test_primary_category_insert_and_select_valid_service(
         self, td_primary_category_json, db_factory
     ):
         """Test inserting valid rows into the primary_category table using the service function insert_primary_categories."""
@@ -47,9 +53,10 @@ class TestPrimaryCategoryInsert:
             db_insert.commit()
 
         with db_factory() as db_select:
-            stmt = select(PrimaryCategoryModel)
-            result = db_select.scalars(stmt).all()
-            assert len(result) == len(primary_categories)
-            result_names = {r.primary_category_name for r in result}
+            primary_category_models = select_primary_categories(
+                PrimaryCategorySelectSchema(), db_select
+            )
+            assert len(primary_category_models) == len(primary_categories)
+            result_names = {r.primary_category_name for r in primary_category_models}
             expected_names = {e["primary_category_name"] for e in primary_categories}
             assert result_names == expected_names
