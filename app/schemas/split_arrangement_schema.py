@@ -18,21 +18,21 @@ class BooleanExpAST(BaseSchema):
     secondary_category_name: str | None = None
 
 
-class SplitArrangementInsert(BaseSchema):
+class SplitArrangementInsertSchema(BaseSchema):
     individual_a: str
     individual_b: str
     a_proportion: Decimal
     categories: BooleanExpAST
 
 
-class SplitArrangementSelect(BaseSchema):
+class SplitArrangementSelectSchema(BaseSchema):
     individual_a: str | None = None
     individual_b: str | None = None
     a_proportion: Decimal | None = None
     categories: BooleanExpAST | None = None
 
 
-class SplitArrangementResult(BaseSchema):
+class SplitArrangementResultSchema(BaseSchema):
     individual_a: str
     individual_b: str
     a_proportion: Decimal
