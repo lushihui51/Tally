@@ -1,3 +1,5 @@
+from sqlalchemy import func, select, table
+
 from app.schemas.beneficiaries_individual_schema import (
     BeneficiariesIndividualInsertSchema,
 )
@@ -87,28 +89,111 @@ class TestSpendingAndRelatedInsertAndSelect:
                 beneficiaries_individual["spending_id"] = spending_id
                 spending_secondary_category["spending_id"] = spending_id
 
+            spenders_individual_rows = []
+            for spenders_individual in spenders_individuals:
+                individual_names = spenders_individual["individual_names"]
+                contributions = spenders_individual["contributions"]
+                spending_id = spenders_individual["spending_id"]
+
+                assert individual_names, "individual_names cannot be empty"
+                assert contributions, "contributions cannot be empty"
+                assert len(individual_names) == len(contributions), (
+                    "individual_names and contributions must have the same length"
+                )
+
+                for individual_name, contribution in zip(
+                    individual_names, contributions
+                ):
+                    spenders_individual_rows.append(
+                        SpendersIndividualInsertSchema(
+                            individual_name=individual_name,
+                            contribution=contribution,
+                            spending_id=spending_id,
+                        )
+                    )
+
             insert_spenders_individuals(
-                [
-                    SpendersIndividualInsertSchema(**spenders_individual)
-                    for spenders_individual in spenders_individuals
-                ],
+                spenders_individual_rows,
                 db_insert,
             )
+            beneficiaries_individual_rows = []
+            for beneficiaries_individual in beneficiaries_individuals:
+                individual_names = beneficiaries_individual.get("individual_names")
+                spending_id = beneficiaries_individual["spending_id"]
+
+                if individual_names is None:
+                    beneficiaries_individual_rows.append(
+                        BeneficiariesIndividualInsertSchema(**beneficiaries_individual)
+                    )
+                    continue
+
+                assert individual_names, "individual_names cannot be empty"
+
+                for individual_name in individual_names:
+                    beneficiaries_individual_rows.append(
+                        BeneficiariesIndividualInsertSchema(
+                            individual_name=individual_name,
+                            spending_id=spending_id,
+                        )
+                    )
+
             insert_beneficiaries_individuals(
-                [
-                    BeneficiariesIndividualInsertSchema(**beneficiaries_individual)
-                    for beneficiaries_individual in beneficiaries_individuals
-                ],
+                beneficiaries_individual_rows,
                 db_insert,
             )
+            spending_secondary_category_rows = []
+            for spending_secondary_category in spending_secondary_categories:
+                secondary_category_names = spending_secondary_category.get(
+                    "secondary_category_names"
+                )
+                spending_id = spending_secondary_category["spending_id"]
+
+                assert secondary_category_names, (
+                    "secondary_category_names cannot be empty"
+                )
+
+                for secondary_category_name in secondary_category_names:
+                    spending_secondary_category_rows.append(
+                        SpendingSecondaryCategoryInsertSchema(
+                            secondary_category_name=secondary_category_name,
+                            spending_id=spending_id,
+                        )
+                    )
+
             insert_spending_secondary_categories(
-                [
-                    SpendingSecondaryCategoryInsertSchema(**spending_secondary_category)
-                    for spending_secondary_category in spending_secondary_categories
-                ],
+                spending_secondary_category_rows,
                 db_insert,
             )
             db_insert.commit()
 
         with db_factory() as db_select:
-            
+
+            def _count_rows(table_candidates):
+                for table_name in table_candidates:
+                    try:
+                        table_ref = table(table_name)
+                        stmt = select(func.count()).select_from(table_ref)
+                        return db_select.execute(stmt).scalar_one()
+                    except Exception:
+                        continue
+                raise AssertionError(
+                    f"Could not query any of the candidate tables: {table_candidates}"
+                )
+
+            spendings_count = _count_rows(["spending", "spendings"])
+            spenders_count = _count_rows(
+                ["spenders_individual", "spenders_individuals"]
+            )
+            beneficiaries_count = _count_rows(
+                ["beneficiaries_individual", "beneficiaries_individuals"]
+            )
+            spending_secondary_categories_count = _count_rows(
+                ["spending_secondary_category", "spending_secondary_categories"]
+            )
+
+            assert spendings_count == len(spendings)
+            assert spenders_count == len(spenders_individual_rows)
+            assert beneficiaries_count == len(beneficiaries_individual_rows)
+            assert spending_secondary_categories_count == len(
+                spending_secondary_category_rows
+            )

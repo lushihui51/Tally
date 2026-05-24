@@ -6,11 +6,12 @@ from pydantic import BaseModel
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
+from app import config
 from app.database import Base
 from app.dependencies.db_dependency import get_db
 from app.main import app
 
-TEST_DATABASE_URL = "postgresql://lushihui:@localhost:5432/tally_test"
+TEST_DATABASE_URL = config.settings.TEST_DATABASE_URL
 engine = create_engine(TEST_DATABASE_URL)
 TestSessionLocal = sessionmaker(bind=engine)
 
