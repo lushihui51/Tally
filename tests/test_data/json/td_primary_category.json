@@ -1,0 +1,32 @@
+[
+    {
+        "primary_category_name": "Housing"
+    },
+    {
+        "primary_category_name": "Utilities"
+    },
+    {
+        "primary_category_name": "Food"
+    },
+    {
+        "primary_category_name": "Transportation"
+    },
+    {
+        "primary_category_name": "Healthcare"
+    },
+    {
+        "primary_category_name": "Personal"
+    },
+    {
+        "primary_category_name": "Entertainment"
+    },
+    {
+        "primary_category_name": "Financial"
+    },
+    {
+        "primary_category_name": "Education"
+    },
+    {
+        "primary_category_name": "Other"
+    }
+]

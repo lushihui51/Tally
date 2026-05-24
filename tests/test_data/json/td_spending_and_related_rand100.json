@@ -1,0 +1,3041 @@
+{
+    "spending": [
+        {
+            "description": "Monthly rent payment",
+            "aggregated": false,
+            "cost": "1850.00",
+            "spending_date": "2025-01-01",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Property Management Co",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Groceries for the week",
+            "aggregated": false,
+            "cost": "127.45",
+            "spending_date": "2025-01-03",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "No Frills",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Internet bill",
+            "aggregated": false,
+            "cost": "75.00",
+            "spending_date": "2025-01-05",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Bell Canada",
+            "store_location": "Online"
+        },
+        {
+            "description": "Gas fill up",
+            "aggregated": false,
+            "cost": "62.38",
+            "spending_date": "2025-01-06",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Petro-Canada",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Coffee and pastry",
+            "aggregated": false,
+            "cost": "8.75",
+            "spending_date": "2025-01-07",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Tim Hortons",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Netflix subscription",
+            "aggregated": false,
+            "cost": "16.99",
+            "spending_date": "2025-01-08",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Netflix",
+            "store_location": "Online"
+        },
+        {
+            "description": "Pharmacy - cold medicine",
+            "aggregated": false,
+            "cost": "18.99",
+            "spending_date": "2025-01-09",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Shoppers Drug Mart",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Haircut",
+            "aggregated": false,
+            "cost": "35.00",
+            "spending_date": "2025-01-10",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "First Choice Haircutters",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "CompTIA A+ study guide",
+            "aggregated": false,
+            "cost": "45.99",
+            "spending_date": "2025-01-11",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Amazon",
+            "store_location": "Online"
+        },
+        {
+            "description": "Credit card annual fee",
+            "aggregated": false,
+            "cost": "120.00",
+            "spending_date": "2025-01-12",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "Scotiabank",
+            "store_location": "Online"
+        },
+        {
+            "description": "Cat food and litter",
+            "aggregated": false,
+            "cost": "58.42",
+            "spending_date": "2025-01-13",
+            "essential": true,
+            "settled": false,
+            "primary_category_name": "Other",
+            "store_name": "PetSmart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Dinner with Jiwon",
+            "aggregated": false,
+            "cost": "78.50",
+            "spending_date": "2025-01-14",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Korean BBQ House",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "TTC monthly pass",
+            "aggregated": false,
+            "cost": "156.00",
+            "spending_date": "2025-01-15",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "TTC",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Electricity bill",
+            "aggregated": false,
+            "cost": "89.23",
+            "spending_date": "2025-01-16",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Toronto Hydro",
+            "store_location": "Online"
+        },
+        {
+            "description": "Video game purchase",
+            "aggregated": false,
+            "cost": "79.99",
+            "spending_date": "2025-01-17",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Steam",
+            "store_location": "Online"
+        },
+        {
+            "description": "Lunch at food court",
+            "aggregated": false,
+            "cost": "14.25",
+            "spending_date": "2025-01-18",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Scarborough Town Centre",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Dental cleaning",
+            "aggregated": false,
+            "cost": "180.00",
+            "spending_date": "2025-01-19",
+            "essential": true,
+            "settled": false,
+            "primary_category_name": "Healthcare",
+            "store_name": "Smile Dental Clinic",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "New running shoes",
+            "aggregated": false,
+            "cost": "129.99",
+            "spending_date": "2025-01-20",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Sport Chek",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Uber ride to airport",
+            "aggregated": false,
+            "cost": "45.67",
+            "spending_date": "2025-01-21",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Uber",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Home insurance premium",
+            "aggregated": false,
+            "cost": "125.00",
+            "spending_date": "2025-01-22",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "TD Insurance",
+            "store_location": "Online"
+        },
+        {
+            "description": "Groceries - produce",
+            "aggregated": false,
+            "cost": "43.21",
+            "spending_date": "2025-01-23",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "T&T Supermarket",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Phone bill",
+            "aggregated": false,
+            "cost": "55.00",
+            "spending_date": "2025-01-24",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Fido",
+            "store_location": "Online"
+        },
+        {
+            "description": "Birthday gift for friend",
+            "aggregated": false,
+            "cost": "50.00",
+            "spending_date": "2025-01-25",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "Indigo",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Spotify premium",
+            "aggregated": false,
+            "cost": "10.99",
+            "spending_date": "2025-01-26",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Spotify",
+            "store_location": "Online"
+        },
+        {
+            "description": "Parking downtown",
+            "aggregated": false,
+            "cost": "22.00",
+            "spending_date": "2025-01-27",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Green P",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Prescription medication",
+            "aggregated": false,
+            "cost": "32.50",
+            "spending_date": "2025-01-28",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Rexall",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Online course - Python",
+            "aggregated": false,
+            "cost": "24.99",
+            "spending_date": "2025-01-29",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Udemy",
+            "store_location": "Online"
+        },
+        {
+            "description": "Bank transfer fee",
+            "aggregated": false,
+            "cost": "1.50",
+            "spending_date": "2025-01-30",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "TD Bank",
+            "store_location": "Online"
+        },
+        {
+            "description": "Coffee beans",
+            "aggregated": false,
+            "cost": "18.99",
+            "spending_date": "2025-01-31",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Costco",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Monthly rent payment",
+            "aggregated": false,
+            "cost": "1850.00",
+            "spending_date": "2025-02-01",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Property Management Co",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Gym membership",
+            "aggregated": false,
+            "cost": "49.99",
+            "spending_date": "2025-02-02",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "GoodLife Fitness",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Takeout sushi",
+            "aggregated": false,
+            "cost": "42.30",
+            "spending_date": "2025-02-03",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Kaka All You Can Eat",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Car wash",
+            "aggregated": false,
+            "cost": "15.00",
+            "spending_date": "2025-02-04",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Petro-Canada",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Movie tickets",
+            "aggregated": false,
+            "cost": "32.00",
+            "spending_date": "2025-02-05",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Cineplex",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Gas bill",
+            "aggregated": false,
+            "cost": "78.45",
+            "spending_date": "2025-02-06",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Enbridge",
+            "store_location": "Online"
+        },
+        {
+            "description": "Eye exam",
+            "aggregated": false,
+            "cost": "95.00",
+            "spending_date": "2025-02-07",
+            "essential": true,
+            "settled": false,
+            "primary_category_name": "Healthcare",
+            "store_name": "FYidoctors",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Textbook for certification",
+            "aggregated": false,
+            "cost": "67.50",
+            "spending_date": "2025-02-08",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Amazon",
+            "store_location": "Online"
+        },
+        {
+            "description": "RRSP contribution fee",
+            "aggregated": false,
+            "cost": "0.00",
+            "spending_date": "2025-02-09",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "Wealthsimple",
+            "store_location": "Online"
+        },
+        {
+            "description": "Donation to charity",
+            "aggregated": false,
+            "cost": "25.00",
+            "spending_date": "2025-02-10",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "Red Cross",
+            "store_location": "Online"
+        },
+        {
+            "description": "Bubble tea",
+            "aggregated": false,
+            "cost": "7.50",
+            "spending_date": "2025-02-11",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "CoCo",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Condo maintenance fee",
+            "aggregated": false,
+            "cost": "450.00",
+            "spending_date": "2025-02-12",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Condo Corp",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "New winter jacket",
+            "aggregated": false,
+            "cost": "199.99",
+            "spending_date": "2025-02-13",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Uniqlo",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Gas fill up",
+            "aggregated": false,
+            "cost": "58.92",
+            "spending_date": "2025-02-14",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Shell",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Valentine's dinner",
+            "aggregated": false,
+            "cost": "145.00",
+            "spending_date": "2025-02-14",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "The Keg",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Disney+ subscription",
+            "aggregated": false,
+            "cost": "11.99",
+            "spending_date": "2025-02-15",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Disney+",
+            "store_location": "Online"
+        },
+        {
+            "description": "Vitamins and supplements",
+            "aggregated": false,
+            "cost": "34.99",
+            "spending_date": "2025-02-16",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Costco",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Internet bill",
+            "aggregated": false,
+            "cost": "75.00",
+            "spending_date": "2025-02-17",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Bell Canada",
+            "store_location": "Online"
+        },
+        {
+            "description": "Linux certification exam",
+            "aggregated": false,
+            "cost": "250.00",
+            "spending_date": "2025-02-18",
+            "essential": false,
+            "settled": false,
+            "primary_category_name": "Education",
+            "store_name": "CompTIA",
+            "store_location": "Online"
+        },
+        {
+            "description": "ATM withdrawal fee",
+            "aggregated": false,
+            "cost": "3.00",
+            "spending_date": "2025-02-19",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "CIBC",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Cat vet checkup",
+            "aggregated": false,
+            "cost": "120.00",
+            "spending_date": "2025-02-20",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "VCA Animal Hospital",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Groceries weekly",
+            "aggregated": false,
+            "cost": "98.76",
+            "spending_date": "2025-02-21",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Metro",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Presto card reload",
+            "aggregated": false,
+            "cost": "50.00",
+            "spending_date": "2025-02-22",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Presto",
+            "store_location": "Online"
+        },
+        {
+            "description": "Concert tickets",
+            "aggregated": false,
+            "cost": "89.00",
+            "spending_date": "2025-02-23",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Ticketmaster",
+            "store_location": "Online"
+        },
+        {
+            "description": "Face wash and skincare",
+            "aggregated": false,
+            "cost": "28.50",
+            "spending_date": "2025-02-24",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Shoppers Drug Mart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Furnace filter",
+            "aggregated": false,
+            "cost": "22.99",
+            "spending_date": "2025-02-25",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Home Depot",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Water bill",
+            "aggregated": false,
+            "cost": "45.67",
+            "spending_date": "2025-02-26",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "City of Toronto",
+            "store_location": "Online"
+        },
+        {
+            "description": "Physiotherapy session",
+            "aggregated": false,
+            "cost": "85.00",
+            "spending_date": "2025-02-27",
+            "essential": true,
+            "settled": false,
+            "primary_category_name": "Healthcare",
+            "store_name": "LifeMark",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Investment book",
+            "aggregated": false,
+            "cost": "21.99",
+            "spending_date": "2025-02-28",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Chapters",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Currency exchange fee",
+            "aggregated": false,
+            "cost": "12.50",
+            "spending_date": "2025-02-28",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "Wise",
+            "store_location": "Online"
+        },
+        {
+            "description": "Umbrella",
+            "aggregated": false,
+            "cost": "15.99",
+            "spending_date": "2025-03-01",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "Dollarama",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Monthly rent payment",
+            "aggregated": false,
+            "cost": "1850.00",
+            "spending_date": "2025-03-01",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Property Management Co",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Dim sum brunch",
+            "aggregated": false,
+            "cost": "65.00",
+            "spending_date": "2025-03-02",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Dragon Boat",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Oil change",
+            "aggregated": false,
+            "cost": "69.99",
+            "spending_date": "2025-03-03",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Mr. Lube",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Board game",
+            "aggregated": false,
+            "cost": "54.99",
+            "spending_date": "2025-03-04",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "401 Games",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Deodorant and toiletries",
+            "aggregated": false,
+            "cost": "19.45",
+            "spending_date": "2025-03-05",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Walmart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Electricity bill",
+            "aggregated": false,
+            "cost": "92.18",
+            "spending_date": "2025-03-06",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Toronto Hydro",
+            "store_location": "Online"
+        },
+        {
+            "description": "Allergy medication",
+            "aggregated": false,
+            "cost": "24.99",
+            "spending_date": "2025-03-07",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Costco",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Cybersecurity course",
+            "aggregated": false,
+            "cost": "199.00",
+            "spending_date": "2025-03-08",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Coursera",
+            "store_location": "Online"
+        },
+        {
+            "description": "Overdraft fee",
+            "aggregated": false,
+            "cost": "5.00",
+            "spending_date": "2025-03-09",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "TD Bank",
+            "store_location": "Online"
+        },
+        {
+            "description": "Picture frame",
+            "aggregated": false,
+            "cost": "29.99",
+            "spending_date": "2025-03-10",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "IKEA",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Ramen dinner",
+            "aggregated": false,
+            "cost": "18.50",
+            "spending_date": "2025-03-11",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Kinton Ramen",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Smoke detector batteries",
+            "aggregated": false,
+            "cost": "12.99",
+            "spending_date": "2025-03-12",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Canadian Tire",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "GO Train fare",
+            "aggregated": false,
+            "cost": "14.35",
+            "spending_date": "2025-03-13",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Metrolinx",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "YouTube Premium",
+            "aggregated": false,
+            "cost": "13.99",
+            "spending_date": "2025-03-14",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Google",
+            "store_location": "Online"
+        },
+        {
+            "description": "Contact lens solution",
+            "aggregated": false,
+            "cost": "16.99",
+            "spending_date": "2025-03-15",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Shoppers Drug Mart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Phone bill",
+            "aggregated": false,
+            "cost": "55.00",
+            "spending_date": "2025-03-16",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Fido",
+            "store_location": "Online"
+        },
+        {
+            "description": "Belt",
+            "aggregated": false,
+            "cost": "35.00",
+            "spending_date": "2025-03-17",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "H&M",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Technical interview prep book",
+            "aggregated": false,
+            "cost": "39.99",
+            "spending_date": "2025-03-18",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Amazon",
+            "store_location": "Online"
+        },
+        {
+            "description": "Wire transfer fee",
+            "aggregated": false,
+            "cost": "25.00",
+            "spending_date": "2025-03-19",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "Scotiabank",
+            "store_location": "Online"
+        },
+        {
+            "description": "Cat toys",
+            "aggregated": false,
+            "cost": "22.99",
+            "spending_date": "2025-03-20",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "PetSmart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Groceries - Asian market",
+            "aggregated": false,
+            "cost": "67.82",
+            "spending_date": "2025-03-21",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "H Mart",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Monthly rent payment",
+            "aggregated": false,
+            "cost": "1850.00",
+            "spending_date": "2025-04-01",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Property Management Co",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Gas fill up",
+            "aggregated": false,
+            "cost": "71.23",
+            "spending_date": "2025-03-22",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Esso",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Escape room with friends",
+            "aggregated": false,
+            "cost": "35.00",
+            "spending_date": "2025-03-23",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Escape Games",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Massage therapy",
+            "aggregated": false,
+            "cost": "100.00",
+            "spending_date": "2025-03-24",
+            "essential": false,
+            "settled": false,
+            "primary_category_name": "Healthcare",
+            "store_name": "RMT Clinic",
+            "store_location": "North York, ON"
+        },
+        {
+            "description": "Sunglasses",
+            "aggregated": false,
+            "cost": "89.00",
+            "spending_date": "2025-03-25",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Sunglass Hut",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Internet bill",
+            "aggregated": false,
+            "cost": "75.00",
+            "spending_date": "2025-03-26",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Bell Canada",
+            "store_location": "Online"
+        },
+        {
+            "description": "AWS certification voucher",
+            "aggregated": false,
+            "cost": "150.00",
+            "spending_date": "2025-03-27",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Education",
+            "store_name": "Amazon Web Services",
+            "store_location": "Online"
+        },
+        {
+            "description": "Credit card interest",
+            "aggregated": false,
+            "cost": "23.45",
+            "spending_date": "2025-03-28",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Financial",
+            "store_name": "TD Bank",
+            "store_location": "Online"
+        },
+        {
+            "description": "Flowers for apartment",
+            "aggregated": false,
+            "cost": "18.00",
+            "spending_date": "2025-03-29",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Other",
+            "store_name": "Loblaws",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Pizza delivery",
+            "aggregated": false,
+            "cost": "32.99",
+            "spending_date": "2025-03-30",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "Pizza Pizza",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Light bulbs",
+            "aggregated": false,
+            "cost": "14.99",
+            "spending_date": "2025-03-31",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Housing",
+            "store_name": "Home Depot",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Car insurance monthly",
+            "aggregated": false,
+            "cost": "185.00",
+            "spending_date": "2025-04-02",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Transportation",
+            "store_name": "Aviva Insurance",
+            "store_location": "Online"
+        },
+        {
+            "description": "Nintendo Switch Online",
+            "aggregated": false,
+            "cost": "4.99",
+            "spending_date": "2025-04-03",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Nintendo",
+            "store_location": "Online"
+        },
+        {
+            "description": "Flu shot",
+            "aggregated": false,
+            "cost": "0.00",
+            "spending_date": "2025-04-04",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Healthcare",
+            "store_name": "Shoppers Drug Mart",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Watch battery replacement",
+            "aggregated": false,
+            "cost": "15.00",
+            "spending_date": "2025-04-05",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "Watch Repair Shop",
+            "store_location": "Toronto, ON"
+        },
+        {
+            "description": "Gas bill",
+            "aggregated": false,
+            "cost": "65.89",
+            "spending_date": "2025-04-06",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Enbridge",
+            "store_location": "Online"
+        }
+    ],
+    "spenders_individual": [
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "925.00",
+                "925.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "63.73",
+                "63.72"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "37.50",
+                "37.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "62.38"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "8.75"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "8.50",
+                "8.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "18.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "35.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "45.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "120.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "29.21",
+                "29.21"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "39.25",
+                "39.25"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "156.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "44.62",
+                "44.61"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "79.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "14.25"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "180.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "129.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "45.67"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "62.50",
+                "62.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "21.61",
+                "21.60"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "55.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "50.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "10.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "22.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "32.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "24.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "1.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "9.50",
+                "9.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "925.00",
+                "925.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "49.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "21.15",
+                "21.15"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "15.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "16.00",
+                "16.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "39.23",
+                "39.22"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "95.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "67.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "0.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "25.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "3.75",
+                "3.75"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "225.00",
+                "225.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "199.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "58.92"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "72.50",
+                "72.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "6.00",
+                "5.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "34.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "37.50",
+                "37.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "250.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "3.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "60.00",
+                "60.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "49.38",
+                "49.38"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "50.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "44.50",
+                "44.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "28.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "11.50",
+                "11.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "22.84",
+                "22.83"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "85.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "21.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "12.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "15.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "925.00",
+                "925.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Kristy Lee",
+                "Brayden Lee"
+            ],
+            "contributions": [
+                "16.25",
+                "16.25",
+                "16.25",
+                "16.25"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "69.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "David Li",
+                "Quin Liang"
+            ],
+            "contributions": [
+                "13.75",
+                "13.75",
+                "13.75",
+                "13.74"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "19.45"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "46.09",
+                "46.09"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "24.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "199.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "5.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "15.00",
+                "14.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "9.25",
+                "9.25"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "6.50",
+                "6.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "14.35"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "13.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "16.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "55.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "35.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "39.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "25.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "11.50",
+                "11.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "33.91",
+                "33.91"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "925.00",
+                "925.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "71.23"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Luke Lu",
+                "Jessie Lu"
+            ],
+            "contributions": [
+                "8.75",
+                "8.75",
+                "8.75",
+                "8.75"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "100.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "89.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "37.50",
+                "37.50"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "150.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "23.45"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "9.00",
+                "9.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "16.50",
+                "16.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "7.50",
+                "7.49"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "185.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "4.99"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "0.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "15.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "32.95",
+                "32.94"
+            ]
+        }
+    ],
+    "beneficiaries_individual": [
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Luke Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "David Li"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Luke Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Quin Liang"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Kristy Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Jessie Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Stephanie Yeon"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Tim Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Brayden Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "David Li",
+                "Quin Liang"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Luke Lu",
+                "Jessie Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Kristy Lee",
+                "Brayden Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Kristy Lee",
+                "Brayden Lee",
+                "Tim Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "David Li"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Jessie Lu",
+                "Luke Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Stephanie Yeon",
+                "Tim Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Quin Liang"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        }
+    ],
+    "spending_secondary_category": [
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Subscription",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Snack",
+                "Cash"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Emergency",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Cash"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard",
+                "Recurring"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Pet",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Date",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Cash",
+                "Snack"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard",
+                "OnSale"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Travel",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "Cash"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Subscription",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Date",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Snack",
+                "Cash"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard",
+                "OnSale"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Date",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Subscription",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Cash"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Pet",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard",
+                "Point&Reward"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Debit",
+                "Debt"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Pet",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Subscription",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Debt",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Car",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "Debit"
+            ]
+        }
+    ]
+}

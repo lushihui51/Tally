@@ -26,7 +26,6 @@ CREATE TABLE spending (
     cost DECIMAL(10, 2) NOT NULL,
     spending_date DATE NOT NULL,
     essential BOOLEAN NOT NULL,
-    freebie BOOLEAN NOT NULL,
     settled BOOLEAN NOT NULL,
     primary_category_name VARCHAR(50) NOT NULL,
     FOREIGN KEY (primary_category_name) REFERENCES primary_category(primary_category_name)
@@ -72,7 +71,9 @@ CREATE TABLE split_arrangement (
     FOREIGN KEY (individual_b) REFERENCES individual(individual_name)
         ON DELETE CASCADE
         ON UPDATE CASCADE,
-    PRIMARY KEY (individual_a, individual_b)
+    PRIMARY KEY (individual_a, individual_b),
+    CONSTRAINT check_different_individuals CHECK (individual_a != individual_b),
+    CONSTRAINT check_ordered_pair CHECK (individual_a < individual_b)
 );
 
 CREATE TABLE spending_secondary_category (

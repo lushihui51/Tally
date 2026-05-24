@@ -1,0 +1,19 @@
+[
+    {
+        "individual_a": "Jaden Lu",
+        "individual_b": "Jiwon Lee",
+        "a_proportion": "0.60",
+        "categories": {
+            "AND": [
+                {
+                    "primary_category_name": "Food"
+                },
+                {
+                    "NOT": {
+                        "secondary_category_name": "Dessert"
+                    }
+                }
+            ]
+        }
+    }
+]
