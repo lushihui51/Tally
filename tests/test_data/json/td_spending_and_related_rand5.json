@@ -1,0 +1,176 @@
+{
+    "spending": [
+        {
+            "description": "Groceries for the week",
+            "aggregated": false,
+            "cost": "87.43",
+            "spending_date": "2025-02-14",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Food",
+            "store_name": "No Frills",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Gas fill up",
+            "aggregated": false,
+            "cost": "65.20",
+            "spending_date": "2025-03-22",
+            "essential": true,
+            "settled": false,
+            "primary_category_name": "Transportation",
+            "store_name": "Petro-Canada",
+            "store_location": "Markham, ON"
+        },
+        {
+            "description": "Netflix subscription",
+            "aggregated": false,
+            "cost": "16.99",
+            "spending_date": "2025-01-08",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Entertainment",
+            "store_name": "Netflix",
+            "store_location": "Online"
+        },
+        {
+            "description": "Haircut",
+            "aggregated": false,
+            "cost": "40.00",
+            "spending_date": "2025-04-05",
+            "essential": false,
+            "settled": true,
+            "primary_category_name": "Personal",
+            "store_name": "First Choice Haircutters",
+            "store_location": "Scarborough, ON"
+        },
+        {
+            "description": "Internet bill",
+            "aggregated": false,
+            "cost": "75.00",
+            "spending_date": "2025-02-17",
+            "essential": true,
+            "settled": true,
+            "primary_category_name": "Utilities",
+            "store_name": "Bell Canada",
+            "store_location": "Online"
+        }
+    ],
+    "spenders_individual": [
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "50.00",
+                "37.43"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "65.20"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Kristy Lee"
+            ],
+            "contributions": [
+                "5.66",
+                "5.66",
+                "5.67"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ],
+            "contributions": [
+                "40.00"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ],
+            "contributions": [
+                "37.50",
+                "37.50"
+            ]
+        }
+    ],
+    "beneficiaries_individual": [
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Luke Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee",
+                "Kristy Lee",
+                "Brayden Lee"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu"
+            ]
+        },
+        {
+            "individual_names": [
+                "Jaden Lu",
+                "Jiwon Lee"
+            ]
+        }
+    ],
+    "spending_secondary_category": [
+        {
+            "secondary_category_names": [
+                "Debit",
+                "Recurring"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "CreditCard",
+                "Car"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Subscription",
+                "Recurring",
+                "CreditCard"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Cash",
+                "Recurring"
+            ]
+        },
+        {
+            "secondary_category_names": [
+                "Recurring",
+                "CreditCard"
+            ]
+        }
+    ]
+}

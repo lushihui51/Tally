@@ -1,2 +1,2 @@
 # Financials
-Handy tools to track your financials.
+AI-powered spending tracker and cost settler application.

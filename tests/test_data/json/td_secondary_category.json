@@ -1,0 +1,53 @@
+[
+    {
+        "secondary_category_name": "Subscription"
+    },
+    {
+        "secondary_category_name": "Emergency"
+    },
+    {
+        "secondary_category_name": "AirB&B"
+    },
+    {
+        "secondary_category_name": "Snack"
+    },
+    {
+        "secondary_category_name": "Dessert"
+    },
+    {
+        "secondary_category_name": "Travel"
+    },
+    {
+        "secondary_category_name": "Date"
+    },
+    {
+        "secondary_category_name": "HomeOffice"
+    },
+    {
+        "secondary_category_name": "CreditCard"
+    },
+    {
+        "secondary_category_name": "Cash"
+    },
+    {
+        "secondary_category_name": "Debit"
+    },
+    {
+        "secondary_category_name": "Point&Reward"
+    },
+    {
+        "secondary_category_name": "OnSale"
+    },
+    {
+        "secondary_category_name": "Car"
+    },
+    {
+        "secondary_category_name": "Pet"
+    },
+    {
+        "secondary_category_name": "Debt"
+    },
+    {
+        "secondary_category_name": "Recurring"
+    }
+]
